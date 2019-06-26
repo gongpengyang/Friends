@@ -101,7 +101,6 @@
 			children = (
 				A5EDA17A22C21C540078F818 /* Friends */,
 				A5EDA14C22C21A9C0078F818 /* AppDelegate.swift */,
-				A5EDA14E22C21A9C0078F818 /* ViewController.swift */,
 				A5EDA15022C21A9C0078F818 /* Main.storyboard */,
 				A5EDA15322C21A9D0078F818 /* Assets.xcassets */,
 				A5EDA15522C21A9D0078F818 /* LaunchScreen.storyboard */,
@@ -132,6 +131,7 @@
 			isa = PBXGroup;
 			children = (
 				A5EDA17B22C21C850078F818 /* FriendsCircle.swift */,
+				A5EDA14E22C21A9C0078F818 /* ViewController.swift */,
 			);
 			path = Friends;
 			sourceTree = "<group>";
