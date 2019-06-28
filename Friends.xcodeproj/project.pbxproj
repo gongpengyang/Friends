@@ -15,6 +15,7 @@
 		A5EDA16222C21A9D0078F818 /* FriendsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EDA16122C21A9D0078F818 /* FriendsTests.swift */; };
 		A5EDA16D22C21A9D0078F818 /* FriendsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EDA16C22C21A9D0078F818 /* FriendsUITests.swift */; };
 		A5EDA17C22C21C850078F818 /* FriendsCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5EDA17B22C21C850078F818 /* FriendsCircle.swift */; };
+		A5F7A3B422C5F294000425B6 /* Target_Friends.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5F7A3B322C5F294000425B6 /* Target_Friends.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		A5EDA16C22C21A9D0078F818 /* FriendsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsUITests.swift; sourceTree = "<group>"; };
 		A5EDA16E22C21A9D0078F818 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A5EDA17B22C21C850078F818 /* FriendsCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendsCircle.swift; sourceTree = "<group>"; };
+		A5F7A3B322C5F294000425B6 /* Target_Friends.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Target_Friends.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 			children = (
 				A5EDA17B22C21C850078F818 /* FriendsCircle.swift */,
 				A5EDA14E22C21A9C0078F818 /* ViewController.swift */,
+				A5F7A3B322C5F294000425B6 /* Target_Friends.swift */,
 			);
 			path = Friends;
 			sourceTree = "<group>";
@@ -267,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5F7A3B422C5F294000425B6 /* Target_Friends.swift in Sources */,
 				A5EDA14F22C21A9C0078F818 /* ViewController.swift in Sources */,
 				A5EDA14D22C21A9C0078F818 /* AppDelegate.swift in Sources */,
 				A5EDA17C22C21C850078F818 /* FriendsCircle.swift in Sources */,
@@ -444,8 +448,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 59N43HF7R3;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Friends/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -453,6 +458,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaiyuan.Friends;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,8 +468,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 59N43HF7R3;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Friends/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -471,6 +478,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.kaiyuan.Friends;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
